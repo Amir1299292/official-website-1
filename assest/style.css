@@ -1,0 +1,10 @@
+*{
+
+  
+    font-family: 'english';
+}
+@font-face{
+src: url(font/saira/static/Saira-Medium.ttf);
+font-family: 'english';
+font-style: normal;
+}
