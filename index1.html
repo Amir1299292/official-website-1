@@ -4,11 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-   <link rel="stylesheet" href="assest/style.css">
+    <link rel="stylesheet" href="assest/style.css">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
 </head>
 <body class="h-2000 ">
     <!-- start header  -->
@@ -56,7 +54,15 @@
      <div class="w-full flex flex-row items-center justify-start pt-20 gap-45">
         <div class=" w-140 flex flex-col items-start justify-center text-white  ">
             <p class="text-3xl">i am gerold </p>
-            <p class="text-7xl font-extrabold mb-5 bg-gradient-to-r from-purple-800  to-purple-300   bg-clip-text text-transparent">next level web <br>developer</p>
+
+
+            <p class="text-7xl font-extrabold mb-5 bg-gradient-to-r from-purple-900 to-purple-400  bg-clip-text text-transparent ">next level web <br>developer</p>
+
+
+
+
+
+
             <p class="font-light text-gray-500 pb-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat officiis dignissimos distinctio quidem a recusandae id hic nemo ?</p>
             <div class="flex flex-row items-center justify-start gap-5">
                 <a href="" class="text-l font-thin text-purple-950  border-1 border-purple-950 rounded-3xl p-2 transition-all duration-300 hover:border-purple-700"> Download cn<svg class="w-5 inline h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path fill="#460066" d="M352 96C352 78.3 337.7 64 320 64C302.3 64 288 78.3 288 96L288 306.7L246.6 265.3C234.1 252.8 213.8 252.8 201.3 265.3C188.8 277.8 188.8 298.1 201.3 310.6L297.3 406.6C309.8 419.1 330.1 419.1 342.6 406.6L438.6 310.6C451.1 298.1 451.1 277.8 438.6 265.3C426.1 252.8 405.8 252.8 393.3 265.3L352 306.7L352 96zM160 384C124.7 384 96 412.7 96 448L96 480C96 515.3 124.7 544 160 544L480 544C515.3 544 544 515.3 544 480L544 448C544 412.7 515.3 384 480 384L433.1 384L376.5 440.6C345.3 471.8 294.6 471.8 263.4 440.6L206.9 384L160 384zM464 440C477.3 440 488 450.7 488 464C488 477.3 477.3 488 464 488C450.7 488 440 477.3 440 464C440 450.7 450.7 440 464 440z"/></svg></a>
@@ -145,46 +151,163 @@
 
     </div>
 </div>
+ <!-- added your Works ----------------------------------------------------------->
+<div class="w-full flex flex-col items-center p-15 bg-gray-950" >
+<div class="w-full flex flex-col items-center justify-center ">
+    <p class="text-4xl font-extrabold mb-5 bg-gradient-to-r from-purple-800  to-purple-100   bg-clip-text text-transparent">My Recent Works</p>
+    <p class="text-gray-400 text-center w-150 mb-10">Lorem, ipsum dolor sit amet consectetur  quam quaerat sed et optio tenetur inventore, minus necessitatibus. Repellendus minus quod eligendi?</p>
+    <div id="tab-buttons"    class="w-100 rounded-3xl  flex flex-row justify-between items-center p-4 bg-black ">
+    <p onclick="showDiv('content1', this)" class="tab tab-active cursor-pointer p-2 text-white text-l rounded-xl" >all</p>
+    <p onclick="showDiv('content2', this)" class="tab cursor-pointer p-2 text-white text-l rounded-xl ">UI/UX</p>
+    <p onclick="showDiv('content3', this)" class="tab cursor-pointer p-2 text-white text-l rounded-xl">Branding</p>
+    <p onclick="showDiv('content4', this)" class="tab cursor-pointer p-2 text-white text-l rounded-xl">apps</p>
+    </div>
+</div>
+<div id="tab-contents" class="flex relative items-center justify-center p-4 mt-10">
+   <div id="content1" class=" content  rounded-xl flex flex-wrap items-center justify-center gap-15 top-40 w-270  flex   bg-slate-950 ">
+    <div class="group w-120  flex items-center justify-center overflow-hidden relative">
+        <img class="w-full object-contain rounded-xl"  src="assest/img/original-1516e936996237c03626627825c53e72.webp" alt="">
+    <div class=" w-115 absolute top-90 transation-all duration-300 group-hover:top-62 h-25 bg-gradient-to-r from-purple-900/80 to-purple-500/80 overflow-hidden  rounded-xl p-4 flex flex-col justify-center">
+        <p class="text-2xl font-extrabold text-white">Deloiite</p>
+        <p class="text-slate-300 text-[13px]">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis amet illum.</p>
+    </div>
+    </div>
 
+    <div class="group w-120  flex items-center justify-center  overflow-hidden relative">
+    <img class="w-full object-contain  rounded-xl"  src="assest/img/original-b3c143673a3e0903ae1e8158c68b3592.webp" alt="">
+   <div class=" w-115 absolute top-90 transation-all duration-300 group-hover:top-62 h-25 bg-gradient-to-r from-purple-900/80 to-purple-500/80 overflow-hidden  rounded-xl p-4 flex flex-col justify-center">
+        <p class="text-2xl font-extrabold text-white">Deloiite</p>
+        <p class="text-slate-300 text-[13px]">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis amet illum.</p>
+    </div>
+    </div>
+    
+    <div class="group w-120  flex items-center  justify-center overflow-hidden relative">
+    <img class="w-full object-contain  rounded-xl"  src="assest/img/original-b3c143673a3e0903ae1e8158c68b3592.webp" alt="">
+      <div class=" w-115 absolute top-90 transation-all duration-300 group-hover:top-62 h-25 bg-gradient-to-r from-purple-900/80 to-purple-500/80 overflow-hidden  rounded-xl p-4 flex flex-col justify-center">
+        <p class="text-2xl font-extrabold text-white">Deloiite</p>
+        <p class="text-slate-300 text-[13px]">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis amet illum.</p>
+    </div>
+    </div>
+
+    <div class="group w-120  flex items-center justify-center overflow-hidden relative">
+    <img class="w-full object-contain  rounded-xl"  src="assest/img/original-f16e51fff937eb3c8e5bde0470ef8275.webp" alt="">
+        <div class=" w-115 absolute top-90 transation-all duration-300 group-hover:top-62 h-25 bg-gradient-to-r from-purple-900/80 to-purple-500/80 overflow-hidden  rounded-xl p-4 flex flex-col justify-center">
+        <p class="text-2xl font-extrabold text-white">Deloiite</p>
+        <p class="text-slate-300 text-[13px]">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis amet illum.</p>
+    </div>
+    </div>
+ </div>
+   <div id="content2" class="hidden content rounded-xl flex flex-wrap items-center justify-center gap-15 top-40 w-270  flex   bg-slate-950 ">
+    <div class="group w-120  flex items-center justify-center overflow-hidden relative">
+        <img class="w-full object-contain rounded-xl"  src="assest/img/original-1516e936996237c03626627825c53e72.webp" alt="">
+    <div class=" w-115 absolute top-90 transation-all duration-300 group-hover:top-62 h-25 bg-gradient-to-r from-purple-900/80 to-purple-500/80 overflow-hidden  rounded-xl p-4 flex flex-col justify-center">
+        <p class="text-2xl font-extrabold text-white">Deloiite</p>
+        <p class="text-slate-300 text-[13px]">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis amet illum.</p>
+    </div>
+    </div>
+
+    <div class="group w-120  flex items-center justify-center  overflow-hidden relative">
+    <img class="w-full object-contain  rounded-xl"  src="assest/img/original-b3c143673a3e0903ae1e8158c68b3592.webp" alt="">
+   <div class=" w-115 absolute top-90 transation-all duration-300 group-hover:top-62 h-25 bg-gradient-to-r from-purple-900/80 to-purple-500/80 overflow-hidden  rounded-xl p-4 flex flex-col justify-center">
+        <p class="text-2xl font-extrabold text-white">Deloiite</p>
+        <p class="text-slate-300 text-[13px]">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis amet illum.</p>
+    </div>
+    </div>
+    
+    <div class="group w-120  flex items-center  justify-center overflow-hidden relative">
+    <img class="w-full object-contain  rounded-xl"  src="assest/img/original-b3c143673a3e0903ae1e8158c68b3592.webp" alt="">
+      <div class=" w-115 absolute top-90 transation-all duration-300 group-hover:top-62 h-25 bg-gradient-to-r from-purple-900/80 to-purple-500/80 overflow-hidden  rounded-xl p-4 flex flex-col justify-center">
+        <p class="text-2xl font-extrabold text-white">Deloiite</p>
+        <p class="text-slate-300 text-[13px]">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis amet illum.</p>
+    </div>
+    </div>
+
+    <div class="group w-120  flex items-center justify-center overflow-hidden relative">
+    <img class="w-full object-contain  rounded-xl"  src="assest/img/original-f16e51fff937eb3c8e5bde0470ef8275.webp" alt="">
+        <div class=" w-115 absolute top-90 transation-all duration-300 group-hover:top-62 h-25 bg-gradient-to-r from-purple-900/80 to-purple-500/80 overflow-hidden  rounded-xl p-4 flex flex-col justify-center">
+        <p class="text-2xl font-extrabold text-white">Deloiite</p>
+        <p class="text-slate-300 text-[13px]">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis amet illum.</p>
+    </div>
+    </div>
+   </div>
+   <div id="content3" class=" hidden content rounded-xl flex flex-wrap items-center justify-center gap-15 top-40 w-270  flex   bg-slate-950 ">
+    <div class="group w-120  flex items-center justify-center overflow-hidden relative">
+        <img class="w-full object-contain rounded-xl"  src="assest/img/original-1516e936996237c03626627825c53e72.webp" alt="">
+    <div class=" w-115 absolute top-90 transation-all duration-300 group-hover:top-62 h-25 bg-gradient-to-r from-purple-900/80 to-purple-500/80 overflow-hidden  rounded-xl p-4 flex flex-col justify-center">
+        <p class="text-2xl font-extrabold text-white">Deloiite</p>
+        <p class="text-slate-300 text-[13px]">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis amet illum.</p>
+    </div>
+    </div>
+
+    <div class="group w-120  flex items-center justify-center  overflow-hidden relative">
+    <img class="w-full object-contain  rounded-xl"  src="assest/img/original-b3c143673a3e0903ae1e8158c68b3592.webp" alt="">
+   <div class=" w-115 absolute top-90 transation-all duration-300 group-hover:top-62 h-25 bg-gradient-to-r from-purple-900/80 to-purple-500/80 overflow-hidden  rounded-xl p-4 flex flex-col justify-center">
+        <p class="text-2xl font-extrabold text-white">Deloiite</p>
+        <p class="text-slate-300 text-[13px]">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis amet illum.</p>
+    </div>
+    </div>
+    
+    <div class="group w-120  flex items-center  justify-center overflow-hidden relative">
+    <img class="w-full object-contain  rounded-xl"  src="assest/img/original-b3c143673a3e0903ae1e8158c68b3592.webp" alt="">
+      <div class=" w-115 absolute top-90 transation-all duration-300 group-hover:top-62 h-25 bg-gradient-to-r from-purple-900/80 to-purple-500/80 overflow-hidden  rounded-xl p-4 flex flex-col justify-center">
+        <p class="text-2xl font-extrabold text-white">Deloiite</p>
+        <p class="text-slate-300 text-[13px]">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis amet illum.</p>
+    </div>
+    </div>
+
+    <div class="group w-120  flex items-center justify-center overflow-hidden relative">
+    <img class="w-full object-contain  rounded-xl"  src="assest/img/original-f16e51fff937eb3c8e5bde0470ef8275.webp" alt="">
+        <div class=" w-115 absolute top-90 transation-all duration-300 group-hover:top-62 h-25 bg-gradient-to-r from-purple-900/80 to-purple-500/80 overflow-hidden  rounded-xl p-4 flex flex-col justify-center">
+        <p class="text-2xl font-extrabold text-white">Deloiite</p>
+        <p class="text-slate-300 text-[13px]">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis amet illum.</p>
+    </div>
+    </div>
+   </div>
+   <div id="content4" class=" hidden content rounded-xl flex flex-wrap items-center justify-center gap-15 top-40 w-270  flex   bg-slate-950 ">
+    <div class="group w-120  flex items-center justify-center overflow-hidden relative">
+        <img class="w-full object-contain rounded-xl"  src="assest/img/original-1516e936996237c03626627825c53e72.webp" alt="">
+    <div class=" w-115 absolute top-90 transation-all duration-300 group-hover:top-62 h-25 bg-gradient-to-r from-purple-900/80 to-purple-500/80 overflow-hidden  rounded-xl p-4 flex flex-col justify-center">
+        <p class="text-2xl font-extrabold text-white">Deloiite</p>
+        <p class="text-slate-300 text-[13px]">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis amet illum.</p>
+    </div>
+    </div>
+
+    <div class="group w-120  flex items-center justify-center  overflow-hidden relative">
+    <img class="w-full object-contain  rounded-xl"  src="assest/img/original-b3c143673a3e0903ae1e8158c68b3592.webp" alt="">
+   <div class=" w-115 absolute top-90 transation-all duration-300 group-hover:top-62 h-25 bg-gradient-to-r from-purple-900/80 to-purple-500/80 overflow-hidden  rounded-xl p-4 flex flex-col justify-center">
+        <p class="text-2xl font-extrabold text-white">Deloiite</p>
+        <p class="text-slate-300 text-[13px]">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis amet illum.</p>
+    </div>
+    </div>
+    
+    <div class="group w-120  flex items-center  justify-center overflow-hidden relative">
+    <img class="w-full object-contain  rounded-xl"  src="assest/img/original-b3c143673a3e0903ae1e8158c68b3592.webp" alt="">
+      <div class=" w-115 absolute top-90 transation-all duration-300 group-hover:top-62 h-25 bg-gradient-to-r from-purple-900/80 to-purple-500/80 overflow-hidden  rounded-xl p-4 flex flex-col justify-center">
+        <p class="text-2xl font-extrabold text-white">Deloiite</p>
+        <p class="text-slate-300 text-[13px]">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis amet illum.</p>
+    </div>
+    </div>
+
+    <div class="group w-120  flex items-center justify-center overflow-hidden relative">
+    <img class="w-full object-contain  rounded-xl"  src="assest/img/original-f16e51fff937eb3c8e5bde0470ef8275.webp" alt="">
+        <div class=" w-115 absolute top-90 transation-all duration-300 group-hover:top-62 h-25 bg-gradient-to-r from-purple-900/80 to-purple-500/80 overflow-hidden  rounded-xl p-4 flex flex-col justify-center">
+        <p class="text-2xl font-extrabold text-white">Deloiite</p>
+        <p class="text-slate-300 text-[13px]">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis amet illum.</p>
+    </div>
+    </div>
+</div>
+
+</div>
+</div>
+<!-- ------------------------------------------------------------------------------------------------------------ -->
 
 
 
 
 
 </body>
-  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-  <script>
-    const parent = document.getElementById('container');
-    const overlay = document.getElementById('highlight-box');
-    const children = parent.querySelectorAll('.content-item');
-    let lastActiveChild = null; // برای ذخیره آخرین موقعیت
 
-   // تابع جابجایی
-    function moveOverlayTo(el) {
-      const parentRect = parent.getBoundingClientRect();
-      const rect = el.getBoundingClientRect();
-      const dx = rect.left - parentRect.left;
-      const dy = rect.top - parentRect.top;
 
-      overlay.style.width = rect.width + 'px';
-      overlay.style.height = rect.height + 'px';
-      overlay.style.transform = `translate(${dx}px, ${dy}px)`;
-      lastActiveChild = el;
-    }
-
-    // وقتی موس روی خود .child وارد شد (نه عناصر داخلی)
-    children.forEach((child) => {
-      child.addEventListener('mouseenter', (e) => {
-        // فقط اگر خود child هدف اصلی event بود (نه فرزند داخلی)
-        if (e.currentTarget !== e.target) return;
-        moveOverlayTo(child);
-      });
-    });
-
-    // در خروج از parent هیچ‌کاری نکن
-    parent.addEventListener('mouseleave', () => {});
-
-    // شروع: overlay روی فرزند اول
-    window.addEventListener('load', () => moveOverlayTo(children[0]));
-  </script>
+         <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+         <script src="assest/script.js"></script>
 </html>
