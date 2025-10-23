@@ -57,4 +57,21 @@
       targetDiv.classList.remove("opacity-0", "translate-y-4");
     });
   }
+  // ----------navbar scroll----------------------------------------------------------------
+  const box = document.getElementById("navbar");
+
+window.addEventListener("scroll", () => {
+  const scrollY = window.scrollY;
+
+  if (scrollY > window.innerHeight) {
+    // اگر بیشتر از h-screen اسکرول شد
+    box.classList.remove("py-8")
+    box.classList.add("fixed", "top-0","right-0","left-0", "[box-shadow:3px_0_19px_#8b5cf6cc]", "bg-black","pr-20","pl-20","py-4");
+  } else {
+    // وقتی برگردیم بالا
+    box.classList.remove("fixed", "top-0","right-0","left-0", "[box-shadow:3px_0_19px_#8b5cf6cc]", "bg-black","pr-20","pl-20","py-4");
+    box.classList.add("py-8")
+
+  }
+});
 
