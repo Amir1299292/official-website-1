@@ -18,3 +18,32 @@ font-style: normal;
     
   } 
 /* -------------------------------------------------------------------------------------------------- */
+
+
+.input{
+ 
+  all: unset;
+  background-color: black;
+  border: 1px solid rgb(82, 82, 82);
+  color:  rgb(82, 82, 82);
+padding: 8px;
+border-radius: 5px;
+}
+.input-1{
+  all: unset;
+  width: 447px !important;
+  height: 200px !important;
+  background-color: black;
+  border: 1px solid rgb(82, 82, 82);
+  color:  rgb(82, 82, 82);
+padding: 8px;
+border-radius: 5px;
+}
+.input-1:focus{
+  border: 1px solid rgb(54, 0, 59);
+
+}
+.input:focus{
+  border: 1px solid rgb(54, 0, 59);
+
+}
